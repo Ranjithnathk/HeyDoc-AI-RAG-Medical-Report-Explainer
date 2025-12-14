@@ -35,6 +35,16 @@ section {
   margin-bottom: 30px;
 }
 
+.repo-link a {
+  font-weight: bold;
+  color: #2E86C1;
+  text-decoration: none;
+}
+
+.repo-link a:hover {
+  text-decoration: underline;
+}
+
 .diagram {
   max-width: 100%;
   border: 1px solid #ccc;
