@@ -222,8 +222,10 @@ docs/screens/
 
 ## Author
 
-Ranjithnath Karunanidhi
+**Ranjithnath Karunanidhi**
+
 Graduate Student - Information Systems
+
 Northeastern University, Boston
 
 ---
