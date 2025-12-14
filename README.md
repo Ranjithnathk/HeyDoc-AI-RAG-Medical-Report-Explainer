@@ -55,7 +55,7 @@ It provides plain-English explanations, structured extractions, and evidence-cit
 
 ## System Architecture
 
-![System_Architecture](https://github.com/Ranjithnathk/HeyDoc-AI-RAG-Medical-Report-Explainer/tree/main/docs/architecture.png)
+![System_Architecture](https://github.com/Ranjithnathk/HeyDoc-AI-RAG-Medical-Report-Explainer/blob/main/docs/architecture.png)
 
 ---
 
