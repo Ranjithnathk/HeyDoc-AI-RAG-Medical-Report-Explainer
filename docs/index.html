@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HeyDocAI – Radiology Report Explainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="logo.png" alt="HeyDocAI Logo" class="logo"/>
+      <h1>HeyDocAI</h1>
+    </div>
+    <p class="tagline">
+      Confused by radiology jargon? HeyDocAI explains it using evidence-backed AI.
+    </p>
+  </header>
+
+  <section>
+    <h2>Project Overview</h2>
+    <p>
+      HeyDocAI is a Generative AI application that helps users understand complex
+      radiology reports through plain-English explanations, structured extraction,
+      and evidence-based question answering.
+    </p>
+    <p>
+      The system uses <b>Prompt Engineering</b> and <b>Retrieval-Augmented Generation (RAG)</b>
+      with a Pinecone vector database and OpenAI language models.
+    </p>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Explain radiology reports (Simple / Normal / Clinician)</li>
+      <li>Structured extraction of findings and impressions</li>
+      <li>Evidence-backed Q&A with citations</li>
+      <li>Guardrails to prevent hallucinations</li>
+      <li>Evaluation metrics for latency and citation coverage</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>System Architecture</h2>
+    <p>
+      The system retrieves relevant medical knowledge from a curated radiology
+      knowledge base stored in Pinecone, injects it into prompts, and generates
+      grounded responses using an LLM.
+    </p>
+    <img src="architecture.png" alt="System Architecture Diagram" class="diagram"/>
+  </section>
+
+  <section>
+    <h2>Core Generative AI Techniques</h2>
+    <ul>
+      <li><b>Prompt Engineering:</b> Task-specific prompts, context injection, guardrails</li>
+      <li><b>RAG:</b> Semantic retrieval from domain-specific PDFs</li>
+      <li><b>Context Management:</b> Multi-turn chat memory</li>
+      <li><b>Evaluation:</b> Latency, evidence rate, citation coverage</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Application Screenshots</h2>
+    <p>
+      Screenshots demonstrating the Explain, Extract, and Evidence Q&A features
+      are available in the repository.
+    </p>
+    <p>
+        <code>docs/screens/</code>
+    </p>
+  </section>
+
+  <section>
+    <h2>Evaluation & Results</h2>
+    <p>
+      The system was evaluated using a standardized query set to measure
+      performance and reliability.
+    </p>
+    <ul>
+      <li>Average latency: ~4–5 seconds</li>
+      <li>Citation coverage (with evidence): 100%</li>
+      <li>Evidence availability: ~90%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔗 Project Links</h2>
+    <ul>
+      <li>GitHub Repository: <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">View on GitHub</a></li>
+      <li>Final Report (PDF): <a href="FINAL_REPORT.pdf" target="_blank">Download Report</a></li>
+      <li>Demo Video: <i>(link to be added)</i></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ethical Considerations</h2>
+    <p>
+      HeyDocAI does not provide medical diagnosis or treatment advice.
+      All responses are grounded in cited sources, and users are advised
+      to consult healthcare professionals.
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      Developed by <b>Ranjithnath Karunanidhi</b><br/>
+      Northeastern University – Generative AI Final Project
+    </p>
+  </footer>
+</body>
+</html>

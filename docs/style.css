@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  background-color: #f9fbfd;
+  color: #333;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 60px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #2E86C1;
+  margin: 0;
+}
+
+.tagline {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.diagram {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  font-size: 14px;
+}

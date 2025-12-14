@@ -1,0 +1,418 @@
+{
+  "project": "HeyDoc AI - Radiology Report Explainer",
+  "version": "1.0",
+  "run_at": "2025-12-13 15:44:23",
+  "num_queries": 10,
+  "items": [
+    {
+      "id": "q1_ggo_definition",
+      "type": "definition",
+      "question": "What does ground-glass opacity mean in a radiology report?",
+      "latency_sec": 8.816,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 35 (score: 0.600)",
+        "[2] thoracic_imaging_glossary_fleischner.pdf \u2014 page 6 (score: 0.592)",
+        "[3] thoracic_imaging_glossary_fleischner.pdf \u2014 page 9 (score: 0.576)",
+        "[4] thoracic_imaging_glossary_fleischner.pdf \u2014 page 19 (score: 0.575)",
+        "[5] thoracic_imaging_glossary_fleischner.pdf \u2014 page 47 (score: 0.560)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 35,
+          "score": 0.6001
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 6,
+          "score": 0.5916
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 9,
+          "score": 0.5762
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 19,
+          "score": 0.5754
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 47,
+          "score": 0.56
+        }
+      ],
+      "answer": "Ground-glass opacity (GGO) in a radiology report refers to a specific appearance on imaging, particularly on CT scans, where there is a hazy area in the lung that does not obscure the underlying structures. This can indicate various conditions, including inflammation or infection.\n\n- Ground-glass opacities are described as areas of hazy opacity that allow some visibility of the underlying lung structures [1].\n- They can be associated with different patterns, such as geographic distribution, which may suggest various underlying pathologies [4].\n- GGO can also be seen in nodules, where they are specifically referred to as \"ground-glass nodules\" [3].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q2_no_acute",
+      "type": "phrase",
+      "question": "What does 'no acute cardiopulmonary abnormality' mean?",
+      "latency_sec": 1.608,
+      "retrieved_chunks_count": 0,
+      "citations_present": false,
+      "citations_ui": [],
+      "top_sources": [],
+      "answer": "I don't know based on the provided sources."
+    },
+    {
+      "id": "q3_atelectasis",
+      "type": "definition",
+      "question": "Explain the term 'atelectasis' in plain English.",
+      "latency_sec": 3.984,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 3 (score: 0.635)",
+        "[2] thoracic_imaging_glossary_fleischner.pdf \u2014 page 4 (score: 0.537)",
+        "[3] thoracic_imaging_glossary_fleischner.pdf \u2014 page 26 (score: 0.532)",
+        "[4] thoracic_imaging_glossary_fleischner.pdf \u2014 page 24 (score: 0.529)",
+        "[5] thoracic_imaging_glossary_fleischner.pdf \u2014 page 25 (score: 0.506)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 3,
+          "score": 0.6352
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 4,
+          "score": 0.5366
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 26,
+          "score": 0.5317
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 24,
+          "score": 0.5289
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 25,
+          "score": 0.5056
+        }
+      ],
+      "answer": "Atelectasis refers to a partial or complete collapse of the lung, which can occur due to various reasons, such as loss of negative pressure in the pleural space or blockage of airways [1]. \n\n- Atelectasis can be seen in different forms, including rounded atelectasis, which is associated with fibrotic changes in the lung [2].\n- It can be identified on imaging studies, such as chest radiographs, where it may appear as linear or localized areas of collapse [3][4].\n- The condition can affect different lobes of the lung, as demonstrated in various imaging examples [5].\n\nI don't know based on the provided sources. \n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q4_pleural_effusion",
+      "type": "definition",
+      "question": "What is a pleural effusion and how is it described on imaging reports?",
+      "latency_sec": 6.164,
+      "retrieved_chunks_count": 6,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 11 (score: 0.587)",
+        "[2] interpreting_chest_radiographs_rutgers.pdf \u2014 page 10 (score: 0.577)",
+        "[3] xray_film_reading_made_easy.pdf \u2014 page 21 (score: 0.573)",
+        "[4] xray_film_reading_made_easy.pdf \u2014 page 32 (score: 0.570)",
+        "[5] thoracic_imaging_glossary_fleischner.pdf \u2014 page 10 (score: 0.562)",
+        "[6] thoracic_imaging_glossary_fleischner.pdf \u2014 page 3 (score: 0.541)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 11,
+          "score": 0.5866
+        },
+        {
+          "source": "interpreting_chest_radiographs_rutgers.pdf",
+          "page": 10,
+          "score": 0.5768
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 21,
+          "score": 0.5735
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 32,
+          "score": 0.57
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 10,
+          "score": 0.5622
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 3,
+          "score": 0.5411
+        }
+      ],
+      "answer": "A pleural effusion is an accumulation of fluid in the pleural space surrounding the lungs. On imaging reports, it is typically described as having a curvilinear interface with aerated lung, resembling a meniscus, and can create hazy opacities in the thorax depending on the patient's position.\n\n- Pleural effusions can widen the pleural space and may show variable attenuation on CT scans, which can also depict loculations and pleural thickening when contrast is used [1].\n- In a supine patient, the fluid may layer posteriorly, leading to a hazy opacity over the hemithorax [2].\n- The meniscus sign is a characteristic feature of pleural effusion, indicating the fluid's dependent settling within the pleural space [3].\n- Imaging may also reveal the loss of normal anatomical structures, such as the hemidiaphragm, due to the presence of the effusion [3].\n\nI don't know based on the provided sources if there are additional specific imaging characteristics or classifications for pleural effusions.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q5_pneumothorax",
+      "type": "definition",
+      "question": "What does pneumothorax mean and how might it appear on a chest X-ray?",
+      "latency_sec": 5.606,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 11 (score: 0.637)",
+        "[2] xray_film_reading_made_easy.pdf \u2014 page 31 (score: 0.615)",
+        "[3] xray_film_reading_made_easy.pdf \u2014 page 30 (score: 0.596)",
+        "[4] thoracic_imaging_glossary_fleischner.pdf \u2014 page 51 (score: 0.583)",
+        "[5] xray_film_reading_made_easy.pdf \u2014 page 34 (score: 0.574)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 11,
+          "score": 0.6371
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 31,
+          "score": 0.6147
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 30,
+          "score": 0.5958
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 51,
+          "score": 0.5828
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 34,
+          "score": 0.5743
+        }
+      ],
+      "answer": "Pneumothorax refers to the presence of air or gas in the pleural space, which is the area between the layers of the pleura surrounding the lungs. On a chest X-ray, pneumothorax may appear as a visible line representing the edge of the collapsed lung, with the presence of air in the pleural space potentially leading to a mediastinal shift, especially if the pneumothorax is significant [1][2].\n\n- Pneumothorax is defined as air or gas in the pleural space that separates the parietal and visceral pleura [1].\n- It may not always be easily identified on poorly exposed X-ray films; proper exposure during expiration is preferred for clearer visualization [2].\n- The edge of a partially collapsed lung can be seen on an X-ray, indicating the presence of pneumothorax [2].\n- Subcutaneous emphysema may also suggest pneumothorax on imaging [5].\n\nI don't know based on the provided sources if there are specific visual characteristics of pneumothorax on a chest X-ray beyond what has been mentioned.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q6_consolidation",
+      "type": "definition",
+      "question": "Define consolidation in radiology and how it differs from ground-glass opacity.",
+      "latency_sec": 5.412,
+      "retrieved_chunks_count": 6,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 35 (score: 0.648)",
+        "[2] interpreting_chest_radiographs_rutgers.pdf \u2014 page 4 (score: 0.635)",
+        "[3] thoracic_imaging_glossary_fleischner.pdf \u2014 page 5 (score: 0.603)",
+        "[4] thoracic_imaging_glossary_fleischner.pdf \u2014 page 19 (score: 0.568)",
+        "[5] interpreting_chest_radiographs_rutgers.pdf \u2014 page 5 (score: 0.567)",
+        "[6] bmus_lung_and_pleura.pdf \u2014 page 6 (score: 0.552)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 35,
+          "score": 0.6478
+        },
+        {
+          "source": "interpreting_chest_radiographs_rutgers.pdf",
+          "page": 4,
+          "score": 0.6351
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 5,
+          "score": 0.6029
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 19,
+          "score": 0.5685
+        },
+        {
+          "source": "interpreting_chest_radiographs_rutgers.pdf",
+          "page": 5,
+          "score": 0.5669
+        },
+        {
+          "source": "bmus_lung_and_pleura.pdf",
+          "page": 6,
+          "score": 0.5517
+        }
+      ],
+      "answer": "Consolidation in radiology refers to the increased opacity of lung tissue due to the filling of air spaces with fluid, cells, or other materials, leading to a hazy or cloud-like appearance on imaging. It differs from ground-glass opacity, which indicates partial filling of air spaces and appears more translucent, allowing some underlying structures to remain visible.\n\n- Consolidation is also known as air space disease or alveolar filling disease, characterized by increased opacity and ill-defined, hazy appearances [2].\n- It can show features like the silhouette sign and air bronchograms, indicating that the air spaces are filled [2][5].\n- Ground-glass opacities, on the other hand, represent a milder form of opacity where the lung parenchyma is not completely filled, allowing for some visibility of underlying structures [1][4].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q7_cardiomegaly",
+      "type": "definition",
+      "question": "What does cardiomegaly mean on a chest X-ray report?",
+      "latency_sec": 4.153,
+      "retrieved_chunks_count": 3,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] xray_film_reading_made_easy.pdf \u2014 page 35 (score: 0.624)",
+        "[2] xray_film_reading_made_easy.pdf \u2014 page 42 (score: 0.526)",
+        "[3] xray_film_reading_made_easy.pdf \u2014 page 39 (score: 0.522)"
+      ],
+      "top_sources": [
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 35,
+          "score": 0.6243
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 42,
+          "score": 0.5264
+        },
+        {
+          "source": "xray_film_reading_made_easy.pdf",
+          "page": 39,
+          "score": 0.5222
+        }
+      ],
+      "answer": "Cardiomegaly refers to an enlargement of the heart, which can be observed on a chest X-ray. This condition can arise from various underlying causes, indicating that the heart is larger than normal.\n\n- Cardiomegaly has numerous etiologies, meaning there are many potential reasons for the heart's enlargement [1].\n- Most abnormal conditions related to the heart involve some degree of cardiac enlargement [1].\n- The appearance of cardiomegaly can sometimes be confused with other factors, such as cardiac fat pads, which may widen the heart's silhouette on an X-ray [2].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q8_uncertainty_language",
+      "type": "uncertainty",
+      "question": "What does it mean when a radiology report says 'may represent' or 'cannot exclude'?",
+      "latency_sec": 4.167,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] radiology_report_quality_hartung_2020.pdf \u2014 page 9 (score: 0.568)",
+        "[2] radiology_report_quality_hartung_2020.pdf \u2014 page 7 (score: 0.566)",
+        "[3] radiology_report_quality_hartung_2020.pdf \u2014 page 2 (score: 0.527)",
+        "[4] radiology_report_quality_hartung_2020.pdf \u2014 page 13 (score: 0.521)",
+        "[5] radiology_report_quality_hartung_2020.pdf \u2014 page 5 (score: 0.519)"
+      ],
+      "top_sources": [
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 9,
+          "score": 0.5682
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 7,
+          "score": 0.5663
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 2,
+          "score": 0.5271
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 13,
+          "score": 0.5209
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 5,
+          "score": 0.5191
+        }
+      ],
+      "answer": "When a radiology report uses phrases like \"may represent\" or \"cannot exclude,\" it indicates uncertainty regarding the findings. \"May represent\" suggests that a particular finding could indicate a certain condition, but it is not definitive. \"Cannot exclude\" means that while a specific diagnosis is possible, the evidence is insufficient to confirm or deny it.\n\n- These phrases reflect the inherent limitations of imaging modalities and the specificity of findings, which may not always lead to a clear diagnosis [3].\n- The use of such language aims to communicate uncertainty while still providing relevant information to the ordering provider [1].\n- Clear communication in reports is essential to avoid misunderstandings and to help guide clinical decision-making [2].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q9_normal_report",
+      "type": "phrase",
+      "question": "What does 'unremarkable study' mean in radiology reports?",
+      "latency_sec": 3.952,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] radiology_report_quality_hartung_2020.pdf \u2014 page 9 (score: 0.557)",
+        "[2] radiology_report_quality_hartung_2020.pdf \u2014 page 6 (score: 0.543)",
+        "[3] radiology_report_quality_hartung_2020.pdf \u2014 page 13 (score: 0.543)",
+        "[4] radiology_report_quality_hartung_2020.pdf \u2014 page 5 (score: 0.541)",
+        "[5] radiology_report_quality_hartung_2020.pdf \u2014 page 3 (score: 0.527)"
+      ],
+      "top_sources": [
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 9,
+          "score": 0.5573
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 6,
+          "score": 0.5428
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 13,
+          "score": 0.5427
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 5,
+          "score": 0.541
+        },
+        {
+          "source": "radiology_report_quality_hartung_2020.pdf",
+          "page": 3,
+          "score": 0.5267
+        }
+      ],
+      "answer": "In radiology reports, the term \"unremarkable study\" indicates that the imaging results show no significant abnormalities or findings that would require further investigation. Essentially, it means that everything appears normal based on the images reviewed.\n\n- \"Unremarkable\" suggests that there are no clinically significant findings, similar to how benign findings are labeled as not clinically significant [4].\n- The use of clear language in reports helps prevent misunderstandings and reassures both the ordering providers and patients [1].\n- An unremarkable result can be a positive outcome, indicating that there are no issues detected in the examined area [4].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    },
+    {
+      "id": "q10_evidence_check",
+      "type": "evidence",
+      "question": "Give an evidence-backed explanation of ground-glass opacity with citations.",
+      "latency_sec": 4.001,
+      "retrieved_chunks_count": 5,
+      "citations_present": true,
+      "citations_ui": [
+        "[1] thoracic_imaging_glossary_fleischner.pdf \u2014 page 35 (score: 0.566)",
+        "[2] thoracic_imaging_glossary_fleischner.pdf \u2014 page 19 (score: 0.557)",
+        "[3] thoracic_imaging_glossary_fleischner.pdf \u2014 page 6 (score: 0.550)",
+        "[4] thoracic_imaging_glossary_fleischner.pdf \u2014 page 14 (score: 0.519)",
+        "[5] thoracic_imaging_glossary_fleischner.pdf \u2014 page 47 (score: 0.505)"
+      ],
+      "top_sources": [
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 35,
+          "score": 0.5657
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 19,
+          "score": 0.5572
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 6,
+          "score": 0.5498
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 14,
+          "score": 0.5188
+        },
+        {
+          "source": "thoracic_imaging_glossary_fleischner.pdf",
+          "page": 47,
+          "score": 0.5053
+        }
+      ],
+      "answer": "Ground-glass opacity (GGO) refers to a hazy area on imaging, particularly seen on CT scans, where the underlying structures of the lung are still visible. It can indicate various conditions, as it represents partial filling of air spaces or increased interstitial fluid.\n\n- Ground-glass opacities can appear in different distributions, such as geographic or multifocal patterns, as seen in CT images [1][2].\n- They are characterized by a lack of well-defined borders, making them distinct from solid nodules or consolidations [1].\n- GGOs can be associated with various lung conditions, including infections, inflammation, or interstitial lung disease, but the specific cause cannot be determined from the imaging alone [1].\n\nI don't know based on the provided sources.\n\nImportant: I am not a doctor and this is not medical advice. I can help explain radiology language and summarize the text, but you should consult a qualified clinician for diagnosis or treatment.\n\nImportant: I am not a doctor and this is not medical advice. This explanation is for informational purposes only."
+    }
+  ],
+  "summary": {
+    "avg_latency_sec": 4.786,
+    "citation_coverage": 0.9,
+    "evidence_rate": 0.9,
+    "citation_coverage_given_evidence": 1.0,
+    "retrieval_settings": {
+      "top_k": 12,
+      "min_score": 0.5,
+      "final_top_k": 6
+    },
+    "notes": "citation_coverage detects [1]..[10] markers in answers. If retrieval returns 0 chunks, the script returns an 'I don't know' answer without citations."
+  }
+}

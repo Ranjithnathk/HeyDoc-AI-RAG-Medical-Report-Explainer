@@ -1,0 +1,57 @@
+{
+  "project": "HeyDoc AI - Radiology Report Explainer",
+  "version": "1.0",
+  "description": "Standard evaluation queries for radiology explanation + evidence Q&A with citations.",
+  "queries": [
+    {
+      "id": "q1_ggo_definition",
+      "type": "definition",
+      "question": "What does ground-glass opacity mean in a radiology report?"
+    },
+    {
+      "id": "q2_no_acute",
+      "type": "phrase",
+      "question": "What does 'no acute cardiopulmonary abnormality' mean?"
+    },
+    {
+      "id": "q3_atelectasis",
+      "type": "definition",
+      "question": "Explain the term 'atelectasis' in plain English."
+    },
+    {
+      "id": "q4_pleural_effusion",
+      "type": "definition",
+      "question": "What is a pleural effusion and how is it described on imaging reports?"
+    },
+    {
+      "id": "q5_pneumothorax",
+      "type": "definition",
+      "question": "What does pneumothorax mean and how might it appear on a chest X-ray?"
+    },
+    {
+      "id": "q6_consolidation",
+      "type": "definition",
+      "question": "Define consolidation in radiology and how it differs from ground-glass opacity."
+    },
+    {
+      "id": "q7_cardiomegaly",
+      "type": "definition",
+      "question": "What does cardiomegaly mean on a chest X-ray report?"
+    },
+    {
+      "id": "q8_uncertainty_language",
+      "type": "uncertainty",
+      "question": "What does it mean when a radiology report says 'may represent' or 'cannot exclude'?"
+    },
+    {
+      "id": "q9_normal_report",
+      "type": "phrase",
+      "question": "What does 'unremarkable study' mean in radiology reports?"
+    },
+    {
+      "id": "q10_evidence_check",
+      "type": "evidence",
+      "question": "Give an evidence-backed explanation of ground-glass opacity with citations."
+    }
+  ]
+}

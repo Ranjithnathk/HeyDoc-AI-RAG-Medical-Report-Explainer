@@ -1,0 +1,15 @@
+streamlit
+python-dotenv
+
+# RAG + Vector DB
+pinecone
+
+# Embeddings + LLM (OpenAI)
+openai
+
+# Utilities
+pydantic
+tqdm
+numpy
+
+pypdf

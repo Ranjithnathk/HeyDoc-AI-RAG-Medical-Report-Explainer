@@ -1,0 +1,19 @@
+Pages loaded: 406 
+Chunks created: 912 
+Upserting 912 chunks into Pinecone index 'heydocai-medkb'... 
+64/912 upserted 
+128/912 upserted 
+192/912 upserted 
+256/912 upserted 
+320/912 upserted 
+384/912 upserted 
+448/912 upserted 
+512/912 upserted 
+576/912 upserted 
+640/912 upserted 
+704/912 upserted 
+768/912 upserted 
+832/912 upserted 
+896/912 upserted 
+912/912 upserted 
+Upsert complete.

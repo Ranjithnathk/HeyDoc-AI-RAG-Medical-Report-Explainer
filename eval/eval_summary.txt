@@ -1,0 +1,26 @@
+q1_ggo_definition: latency=12.714s, chunks=5, citations=True
+q2_no_acute: latency=1.569s, chunks=0, citations=False (no evidence)
+q3_atelectasis: latency=8.03s, chunks=5, citations=True
+q4_pleural_effusion: latency=7.477s, chunks=6, citations=True
+q5_pneumothorax: latency=6.447s, chunks=5, citations=True
+q6_consolidation: latency=5.833s, chunks=6, citations=True
+q7_cardiomegaly: latency=3.991s, chunks=3, citations=True
+q8_uncertainty_language: latency=4.242s, chunks=5, citations=True
+q9_normal_report: latency=5.845s, chunks=5, citations=True
+q10_evidence_check: latency=5.475s, chunks=5, citations=True
+
+=== SUMMARY ===
+{
+  "avg_latency_sec": 6.162,
+  "citation_coverage": 0.9,
+  "evidence_rate": 0.9,
+  "citation_coverage_given_evidence": 1.0,
+  "retrieval_settings": {
+    "top_k": 12,
+    "min_score": 0.5,
+    "final_top_k": 6
+  },
+  "notes": "citation_coverage detects [1]..[10] markers in answers. If retrieval returns 0 chunks, the script returns an 'I don't know' answer without citations."
+}
+
+Saved: eval\results.json
