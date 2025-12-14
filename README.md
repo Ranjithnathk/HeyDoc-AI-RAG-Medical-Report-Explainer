@@ -7,6 +7,12 @@ It provides plain-English explanations, structured extractions, and evidence-cit
 
 ---
 
+## Project Web Page
+Live project page (GitHub Pages):  
+https://ranjithnathk.github.io/HeyDoc-AI-RAG-Medical-Report-Explainer/
+
+---
+
 ## Key Features
 
 ### Explain Radiology Reports
